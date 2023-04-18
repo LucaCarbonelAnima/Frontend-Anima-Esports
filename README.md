@@ -54,7 +54,7 @@ Los errores deben ser reportados en el respectivo tablero de Jira para que algú
 ## Convención de nombres de las branches
 Las branches deben estar compuestas por AW/[NroTicket]/[TipoDeTarea].
 
-###Los distintos tipos de tarea pueden ser:
+### Los distintos tipos de tarea pueden ser:
 
 **Update**: Actualización de código depercado o pequeños cambios de código posterior
 
