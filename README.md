@@ -4,13 +4,40 @@
 Este proyecto está programado en React y debe ser mantenido en este lenguaje a menos que la institución cambie su currícula en diseño web, Por la razon de que año a año se busca que los propios programadores sean estudiantes de la Institucion los cuales hayan sido capacitados en el lenguaje dado en clase
 
 ## Cómo clonar e inicializar el proyecto
-Para clonar el proyecto, es necesario ejecutar el siguiente comando en la terminal:
+
+### Si no se tiene una clave SSH ejecutar:
 
 ```
-git clone <URL del proyecto>
+ssh-keygen -t rsa
 ```
 
-Para inicializar el proyecto en React, es necesario instalar todas las dependencias con el siguiente comando:
+En una con sola PowerShell ejecutar:
+
+```
+cat ~/.ssh/id_rsa.pub
+```
+Copiar lo que aparece en consola
+
+### Agregar la SSH-KEY en Github. 
+ 
+1. En la barra lateral izquierda, haz clic en "SSH and GPG keys".
+
+2. Haz clic en "New SSH key" o "Add SSH key", dependiendo de tu versión de Github.
+
+3. En el campo "Title", ingresa un nombre descriptivo para la clave.
+
+4. En el campo "Key", pega la clave pública SSH que copiaste anteriormente.
+
+5. Haz clic en "Add SSH key" o "Save SSH key", dependiendo de tu versión de Github.
+
+
+### Para clonar el proyecto con SSH, es necesario ejecutar el siguiente comando en la terminal:
+
+```
+git clone git@github.com:LucaCarbonelAnima/Frontend-Anima-Esports.git
+```
+
+### Para inicializar el proyecto en React, es necesario instalar todas las dependencias con el siguiente comando:
 
 ```
 npm install
@@ -27,9 +54,12 @@ Los errores deben ser reportados en el respectivo tablero de Jira para que algú
 ## Convención de nombres de las branches
 Las branches deben estar compuestas por AW/[NroTicket]/[TipoDeTarea]. Los distintos tipos de tarea pueden ser:
 
-### Update: actualización de código depercado o pequeños cambios de código posterior
-### Fix: arreglo de errores
-### Styles: agregar estilos a código anteriormente hecho
-### Implementation: código nuevo agregado sin antecedentes previos
+**Update**: Actualización de código depercado o pequeños cambios de código posterior
+
+**Fix**: Arreglo de errores
+
+**Styles**: Agregar estilos a código anteriormente hecho
+
+**Implementation**: Código nuevo agregado sin antecedentes previos
 
 Es importante mencionar que el nombre de la branch debe estar escrito en minúsculas y separado por guiones. Además, el número de ticket debe ser una abreviación del nombre de la tarea correspondiente.
