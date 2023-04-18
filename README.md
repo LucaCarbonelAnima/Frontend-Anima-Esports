@@ -52,7 +52,9 @@ Es importante mencionar que no se pueden hacer rebases a la rama principal (main
 Los errores deben ser reportados en el respectivo tablero de Jira para que algún compañero pueda tomarlo y solucionarlo.
 
 ## Convención de nombres de las branches
-Las branches deben estar compuestas por AW/[NroTicket]/[TipoDeTarea]. Los distintos tipos de tarea pueden ser:
+Las branches deben estar compuestas por AW/[NroTicket]/[TipoDeTarea].
+
+###Los distintos tipos de tarea pueden ser:
 
 **Update**: Actualización de código depercado o pequeños cambios de código posterior
 
