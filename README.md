@@ -6,14 +6,17 @@ Este proyecto está programado en React y debe ser mantenido en este lenguaje a 
 ## Cómo clonar e inicializar el proyecto
 Para clonar el proyecto, es necesario ejecutar el siguiente comando en la terminal:
 
-bash
-Copy code
+```
 git clone <URL del proyecto>
+```
+
 Para inicializar el proyecto en React, es necesario instalar todas las dependencias con el siguiente comando:
 
-bash
-Copy code
+```
 npm install
+```
+
+
 Además, se deben utilizar las normas ES6 para React. Para más información, se puede visitar el siguiente enlace: https://reactjs.org/docs/javascript-environment-requirements.html
 
 Es importante mencionar que no se pueden hacer rebases a la rama principal (main) sin la aprobación de un code review de un compañero de mayor jerarquía.
