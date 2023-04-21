@@ -49,7 +49,7 @@ Además, se deben utilizar las normas ES6 para React. Para más información, se
 Es importante mencionar que no se pueden hacer rebases a la rama principal (main) sin la aprobación de un code review de un compañero de mayor jerarquía.
 
 ## Reporte de errores
-Los errores deben ser reportados en el respectivo tablero de Jira para que algún compañero pueda tomarlo y solucionarlo.
+Los errores deben ser reportados en el respectivo tablero de Notion para que algún compañero pueda tomarlo y solucionarlo.
 
 ## Convención de nombres de las branches
 Las branches deben estar compuestas por AW/[NroTicket]/[TipoDeTarea].
